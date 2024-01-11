@@ -9,7 +9,8 @@ let shop = {
     name:"Magnum",
     'year of foundation':2007,
 }
-shop.country="Kazakhstan";
+shop['country']="Kazakhstan";
+shop.city="Almaty";
 shop.name = "Small";
 delete shop['year of foundation'];
 console.log(shop);
